@@ -1,0 +1,50 @@
+{
+  "name": "appfluence",
+  "version": "0.0.1",
+  "description": "Connect people with projects.",
+  "main": "index.js",
+  "scripts": {
+    "server": "node --harmony_destructuring ./src/server/server.js",
+    "dev-client": "node devserver.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^11.1.1",
+    "history": "^1.13.1",
+    "isomorphic-fetch": "^2.2.0",
+    "lodash": "^3.10.1",
+    "mysql": "^2.9.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-redux": "^4.0.0",
+    "react-router": "^1.0.0",
+    "redux": "^3.0.4",
+    "redux-logger": "^2.0.4",
+    "redux-router": "1.0.0-beta4",
+    "redux-thunk": "^1.0.0",
+    "sequelize": "^3.13.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel": "^6.1.18",
+    "babel-core": "^6.1.2",
+    "babel-eslint": "^4.1.4",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.2",
+    "bootstrap": "^3.3.5",
+    "css-loader": "^0.23.0",
+    "eslint": "^1.9.0",
+    "eslint-plugin-react": "^3.9.0",
+    "file-loader": "^0.8.4",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "json-loader": "^0.5.3",
+    "less-loader": "^2.2.1",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.3",
+    "webpack-dev-server": "^1.12.1",
+    "yargs": "^3.25.0"
+  }
+}
